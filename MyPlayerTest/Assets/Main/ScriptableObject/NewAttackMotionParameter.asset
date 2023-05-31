@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b204b48f4696684093f4f93e1975d43, type: 3}
+  m_Name: NewAttackMotionParameter
+  m_EditorClassIdentifier: 
+  _damageMagnification_OIL: 5
+  _attackParameters:
+  - _AnimationClipName: Attack_A_Root
+    _motionContent: 
+    _damage: 3
+    _attackTarget_Plural: 0
+    _decisionCoolTime: 0
+    _hitStopTime: 0.1
+    _hitSlowTime: 0
+    _hitSlowLevel: 0
+  - _AnimationClipName: Attack_B_Root
+    _motionContent: 
+    _damage: 3
+    _attackTarget_Plural: 0
+    _decisionCoolTime: 0
+    _hitStopTime: 0.1
+    _hitSlowTime: 0.01
+    _hitSlowLevel: 0.05
+  - _AnimationClipName: Attack_C_Root
+    _motionContent: 
+    _damage: 4
+    _attackTarget_Plural: 1
+    _decisionCoolTime: 0
+    _hitStopTime: 0.01
+    _hitSlowTime: 0
+    _hitSlowLevel: 0
+  - _AnimationClipName: Attack_D_Root
+    _motionContent: 
+    _damage: 5
+    _attackTarget_Plural: 0
+    _decisionCoolTime: 0
+    _hitStopTime: 0
+    _hitSlowTime: 0.01
+    _hitSlowLevel: 0.05
+  - _AnimationClipName: Attack_AIR_A_Root
+    _motionContent: 
+    _damage: 5
+    _attackTarget_Plural: 0
+    _decisionCoolTime: 0
+    _hitStopTime: 0
+    _hitSlowTime: 0.3
+    _hitSlowLevel: 0.05

@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15f005915b39b6a41b2e257e424236b6, type: 3}
+  m_Name: NewCharacterParameter
+  m_EditorClassIdentifier: 
+  _maxHP: 500
+  _insertOilUseHpRatio: 0
+  _oilDecreaceRatio: 0
+  _defaultMaxSpeed: 10
+  _defaultAcceleration: 40
+  _defaultDeceleration: 40
+  _defaultSwitchDirDeceleration: 60
+  _defaultAirAcceleration: 0
+  _defaultAirDeceleration: 0
+  _defaultAirSwitchDirDeceleration: 200
+  _defaultAirWalkUsageLimit: 0
+  _jumpPower: 20
+  _jumpUpPowerDeceleration: 35
+  _jumpLimitPowerDeceleration: 70
+  _jumpMaxTime: 0.3
+  _dropOilAmount: 1
+  _dropOilProbability: 0
+  _minDamageValue: 0
+  _knockBackRange: 0
+  _isAttackPowerUP: 0
+  _comboRateOfUp: 0
+  _comboAttackPower: 0
+  _comboDisconnectionTimeLimits: 5
+  _blinkMaxTime: 0.15
+  _blinkReCastTime: 1
+  _blinkMoveSpeedmagnification: 2
+  _OILMaxTime: 3
+  _OILReCastTime: 1
+  _OILMoveSpeedMagnification: 1
+  _OILAttaclPowerMagnification: 3
+  _OILAnimationSpeedMagnification: 1.4
